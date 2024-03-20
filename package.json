@@ -22,7 +22,7 @@
     "lint:css": "stylelint './src/**/*.js'",
     "lint:js": "eslint ./src/",
     "lint:fix": "eslint ./src/ --fix",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "husky": {
     "hooks": {

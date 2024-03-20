@@ -23,11 +23,12 @@ const Author = ({ language, fullText }) => {
             <h1>Hi there 👋 I&#39;m <span itemProp="name">Mohammed S. Beayou </span> </h1>
             <p>Freshly graduated with a degree in Electrical and Electronics Engineering, I&#39;m all about diving deep into the world of <span itemProp="jobTitle">backend development</span>, embedded systems, and control and automation systems. You'll often find me tinkering with .NET, Django, and an array of other tools, all geared towards solving real-world challenges and crafting impactful solutions.</p>
 
-            <p><strong>Here's a snapshot of what's keeping me busy these days:</strong></p>
+            <p><strong>what's keeping me busy these days:</strong></p>
             <ul>
-              <li>🔍 On the lookout for exciting opportunities to put my skills to good use and lend a hand to innovative projects.</li>
-              <li>📚 Forever in learning mode, currently delving into the realms of machine learning and PLC automation.</li>
+              <li>On the lookout for exciting opportunities to put my skills to good use and lend a hand to innovative projects.</li>
+              <li>Forever in learning mode, currently "exploring" the realms of machine learning and PLC automation.</li>
             </ul>
+            <a href="https://mbeayou.github.io/about/">See more...</a> 
 
 
               {fullText && (
@@ -54,9 +55,9 @@ const Author = ({ language, fullText }) => {
                   </ul>
                   <p><strong>Connect with me:</strong></p>
                   <ul>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/mohammed-s-baayou/">linkedin</a></li>
-                    <li>general blog: <a href="https://m-beayou.netlify.app/">my Blog</a></li>
-                    <li>porfolio and technical blog:</li>
+                    <li><a href="https://www.linkedin.com/in/mohammed-s-baayou/">Linkedin</a></li>
+                    <li><a href="https://m-beayou.netlify.app/">General and arabic long-form Blog</a></li>
+                    <li><a href="https://mbeayou.github.io/">Porfolio and technical blog</a></li>
                     <li>Email: msdbgx@gmail.com</li>
                   </ul>
                   <p><strong>Open to:</strong></p>
@@ -65,22 +66,13 @@ const Author = ({ language, fullText }) => {
                     <li>intrenships</li>
                     <li>Collaboration on interesting projects</li>
                   </ul>
-                  <p><em>I&#39;m always eager to learn and collaborate, so feel free to reach out!</em></p>
                 </>
               )}
             </>
           )}
 
         {fullText && (
-          <>
-            <ul>
-              <li><a itemProp="owns" href="https://github.com/" target="_blank" rel="noopener noreferrer" title="Front-end BR">Front-end BR</a></li>
-              <li><a itemProp="owns" href="https://github.com/" target="_blank" rel="noopener noreferrer" title="CSS Components">CSS Components</a></li>
-              <li><a itemProp="owns" href="https://github.com/" target="_blank" rel="noopener noreferrer" title="Front-end Challenges">Front-end Challenges</a></li>
-              <li><a itemProp="owns" href="https://github.com/" target="_blank" rel="noopener noreferrer" title="Kratos Boilerplate">Kratos Boilerplate</a></li>
-              <li><a itemProp="owns" href="https://github.com/" target="_blank" rel="noopener noreferrer" title="Piano">Piano</a></li>
-            </ul>
-          </>
+          <p><em>I&#39;m always eager to learn and collaborate, so feel free to reach out!</em></p>
         )}
       </div>
     </Content >
