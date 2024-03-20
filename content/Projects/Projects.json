@@ -1,0 +1,30 @@
+[
+  {
+    "path": "https://github.com/mbeayou/Ball-and-Plate-Balancing-System",
+    "date": "2023",
+    "title": "Ball and Plate Balancing System",
+    "description": "Arduino-based project aims to create a system stablizes a ball on a plate",
+    "imageSrc": "BPS.jpg"
+  },
+  {
+    "path": "https://github.com/mbeayou/Steganography-Tool-For-Images",
+    "date": "2022",
+    "title": "LSB Steganography Tool",
+    "description": "A simple gui program thaat hides texts inside an image using LSB method",
+    "imageSrc": "R.jpeg"
+  },
+  {
+    "path": "https://github.com/mbeayou/dotNet-Clean-ArchitectureTemplate",
+    "date": "2022",
+    "title": "dotNet microservices clean architecture template",
+    "description": "A service template from a microservices project i made using a clean (onion) architecture, CQRS and event sourcing that aims minimizing the time while creating new service each time ",
+    "imageSrc": "clean-architecture.png"
+  },
+  {
+    "path": "https://m-beayou.netlify.app/",
+    "date": "2019",
+    "title": "A general purpose blog",
+    "description": "a blog for general and long-form articles that mixes between satirical drawings with seriuos writings",
+    "imageSrc": "fights3.jpg"
+  }
+]
