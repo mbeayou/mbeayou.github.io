@@ -27,6 +27,7 @@ const IndexPage = () => {
         </ButtonLink>
 
         <Author />
+        <a href="https://mbeayou.github.io/about/">See more...</a> 
         <BlogList />
       </GridTemplate>
     </Layout>

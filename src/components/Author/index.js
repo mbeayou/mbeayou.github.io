@@ -28,7 +28,6 @@ const Author = ({ language, fullText }) => {
               <li>On the lookout for exciting opportunities to put my skills to good use and lend a hand to innovative projects.</li>
               <li>Forever in learning mode, currently "exploring" the realms of machine learning and PLC automation.</li>
             </ul>
-            <a href="https://mbeayou.github.io/about/">See more...</a> 
 
 
               {fullText && (
